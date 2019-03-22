@@ -1,0 +1,66 @@
+<title>ログイン</title>
+  <meta charset="utf-8">
+
+  <style type="text/css">
+    body{
+      background-color: #f99;
+      background: #eee;
+      height: 200px;
+    }
+    .login-wrap {
+      text-align: center;
+      padding: 15px;
+      background-color: #fff;
+      margin: 0 auto;
+      margin-top: 180px;
+      width: 350px;
+    }
+    .login-wrap p {
+      font-size: 25px;
+    }
+    .box {
+      width: 250px;
+      height: 35px;
+      text-align: center;
+      font-size: 25px;
+    }
+    .submit-btn {
+      font-size: 25px;
+      width: 150px;
+      background-color: #33e;
+      color: #eee;
+      line-height: 1.2;
+    }
+    .submit-btn {
+      border-radius: 10px;
+    }
+    .error {
+      color: #f00;
+      font-size: 12px;
+    }
+  </style>
+
+
+  <div class="login-wrap">
+    <div class="login-comment">
+      <p>AI Academy Login Page</p>
+    </div>
+    <div class="login-form">
+      <div class="form">
+        <form method="post">
+          <p>
+            <input class="box" type="text" name="username" placeholder="username">
+          </p>
+          <p>
+            <input class="box" type="password" name="password" placeholder="password">
+          </p>
+          <p>
+            <input class="submit-btn" type="submit" value="login">
+          </p>
+        </form>
+      </div>
+    </div>
+    <div>
+      <p class="error">{{ message }}</p>
+    </div>
+  </div>

@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "/Users/A-SK/.pyenv/versions/anaconda3-5.2.0/bin/python",
+    "python.linting.flake8Enabled": true,
+    "python.linting.pep8Enabled": false,
+    "python.linting.enabled": true
+}
